@@ -10,3 +10,8 @@ output "bucket_arn" {
 output "bucket_region" {
   value = var.aws_region
 }
+
+output "website_url" {
+  value       = aws_s3_bucket_website_configuration.demo.website_endpoint
+  description = "URL der statischen Webseite"
+}
