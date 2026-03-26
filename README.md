@@ -168,7 +168,7 @@ Hier definierst du die Eingabewerte.
 variable "aws_region" {
   description = "AWS-Region"
   type        = string
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "bucket_name" {
@@ -248,7 +248,7 @@ Nach `terraform apply` bekommst du damit direkt wichtige Informationen zurück.
 Hier setzt du die konkreten Werte für dein Projekt.
 
 ```hcl
-aws_region  = "eu-central-1"
+aws_region  = "us-east-1"
 bucket_name = "mein-eindeutiger-demo-bucket-xyz-12345"
 
 bucket_tags = {
