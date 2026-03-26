@@ -99,7 +99,7 @@ Ein Beispiel:
 ```text
 AWS Access Key ID [None]: DEIN_ACCESS_KEY
 AWS Secret Access Key [None]: DEIN_SECRET_KEY
-Default region name [None]: eu-central-1
+Default region name [None]: us-east-1
 Default output format [None]: json
 ```
 
@@ -310,7 +310,7 @@ provider "aws" {
 variable "aws_region" {
   description = "AWS-Region"
   type        = string
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "bucket_name" {
@@ -357,7 +357,7 @@ output "bucket_region" {
 ## `terraform.tfvars`
 
 ```hcl
-aws_region  = "eu-central-1"
+aws_region  = "us-east-1"
 bucket_name = "mein-eindeutiger-demo-bucket-xyz-12345"
 
 bucket_tags = {
@@ -590,7 +590,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-central-1"
+  region = "us-east-1"
 }
 ```
 
