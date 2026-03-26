@@ -260,7 +260,7 @@ bucket_tags = {
 
 ### Wichtig
 
-Ersetze `mein-eindeutiger-demo-bucket-xyz-12345` durch einen **wirklich eindeutigen Namen**.  
+Ersetze `mein-eindeutiger-demo-bucket-xyz-12345` durch einen **wirklich eindeutigen Namen**. Achte außerdem darauf, dass du den [AWS General purpose bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) folgst, da du sonst einen Fehler bekommst.
 Zum Beispiel mit deinem Namen oder einem Zufallswert.
 
 ---
