@@ -250,6 +250,7 @@ Hier setzt du die konkreten Werte für dein Projekt.
 ```hcl
 aws_region  = "us-east-1"
 bucket_name = "mein-eindeutiger-demo-bucket-xyz-12345"
+# bucket_name erlaubt nur "kleine" Buchstaben
 
 bucket_tags = {
   project = "terraform-demo"
